@@ -34,6 +34,7 @@ public class HWtestCase01 extends TestBase{
         BrowserUtils.waitFor(8);
         // add
         // add hiltas73
+        // add new update inşallah
 
         Assert.assertEquals(actualSubtitle, expectedSubtitle, "Verify that page subtitle \"Options\" is displayed");
 
