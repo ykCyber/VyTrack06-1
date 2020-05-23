@@ -32,7 +32,7 @@ public class HWtestCase01 extends TestBase{
         String expectedSubtitle = "Options";
         String actualSubtitle = dashboardPage.getPageSubTitle();
         BrowserUtils.waitFor(8);
-        // add
+      //ben ekledim buraya
         // add hiltas73
         // add new update inşallah
 
