@@ -1,0 +1,24 @@
+package com.vytrack.pages;
+
+import com.vytrack.utilities.Driver;
+import org.openqa.selenium.By;
+import org.openqa.selenium.WebElement;
+
+public class ContactsPage extends BasePage {
+
+    //since we are extending BasePage we do not need explicit constructor for this class
+
+    //@FindBy(xpath = "//td[contains(text(),'mbrackstone9@example.com')][@data-column-label='Email']")
+   // public WebElement email;
+
+
+
+
+    //create a method getContactEmail that accepts email as a String, and return webelement based on that email.
+                            //String email1 = "mbrackstone9@example.com";
+    public WebElement getContactEmail(String email){
+        String xpath1 = "//td[contains(text(),'"+ email + "')][@data-column-label='Email']";
+        return Driver.get().findElement(By.xpath(xpath1));
+    }
+
+}
