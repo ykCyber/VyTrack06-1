@@ -35,6 +35,7 @@ public class HWtestCase01 extends TestBase{
       //ben ekledim buraya
         // add hiltas73
         // add new update inşallah
+        //sami branch added
 
         Assert.assertEquals(actualSubtitle, expectedSubtitle, "Verify that page subtitle \"Options\" is displayed");
 
