@@ -32,7 +32,7 @@ public class HWtestCase01 extends TestBase{
         String expectedSubtitle = "Options";
         String actualSubtitle = dashboardPage.getPageSubTitle();
         BrowserUtils.waitFor(8);
-
+        // add
 
         Assert.assertEquals(actualSubtitle, expectedSubtitle, "Verify that page subtitle \"Options\" is displayed");
 
